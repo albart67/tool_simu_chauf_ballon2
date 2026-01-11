@@ -28,7 +28,7 @@ with st.sidebar:
     
     st.header("🔥 Chaudière de Secours")
     P_chaud = st.number_input("Puissance Chaudière (kW)", 0.0, 100.0, 15.0)
-    t_secours_min = st.slider("Délai avant secours (min)", 0, 300, 30)
+    t_secours_min = st.slider("Délai avant secours (min)", 0, 90, 30)
 
     st.header("🌡️ Déperditions & Volume")
     V_ball = st.number_input("Volume ballon (L)", 100, 5000, 300)
